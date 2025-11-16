@@ -73,7 +73,7 @@ Fork → Branch → PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## License
 
-AGPL-3.0 - See [LICENSE](LICENSE)
+AGPL-3.0 - See [LICENSE](https://github.com/TheStoicSpirit/Break-Reminder?tab=AGPL-3.0-1-ov-file)
 
 ---
 
