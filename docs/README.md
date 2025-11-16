@@ -69,7 +69,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ## Contributing
 
-Fork → Branch → PR. See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details.
+Fork → Branch → PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## License
 
