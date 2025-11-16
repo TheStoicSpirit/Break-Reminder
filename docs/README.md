@@ -8,11 +8,12 @@ Lightweight Windows utility for healthy work habits. Get periodic reminders to h
 
 ## Features
 
-- 100+ motivational break messages
+- 120+ professional break messages
 - Choose to take a break or skip
 - Easy scheduling (hourly, custom intervals)
 - Fully customizable
 - Minimal resource usage
+- Modern borderless UI
 
 ## Quick Start
 
@@ -31,7 +32,7 @@ Lightweight Windows utility for healthy work habits. Get periodic reminders to h
 4. Arguments: `-WindowStyle Hidden -ExecutionPolicy Bypass -File "C:\path\to\Break-Reminder\src\main.ps1"`
 5. Enable "Run with highest privileges"
 
-**No terminal window** - Uses hidden PowerShell window
+**No terminal window** - Runs silently in background
 
 ## Customize
 
@@ -39,7 +40,7 @@ Lightweight Windows utility for healthy work habits. Get periodic reminders to h
 
 **Settings:** Edit `data\config.ini`
 ```ini
-BreakAction=sleep    # Options: sleep, lock, hibernate
+BreakAction=sleep    # Options: sleep, lock, hibernate, shutdown
 EnableLogging=true
 ```
 
@@ -51,7 +52,6 @@ break-reminder/
 ├── data/
 │   ├── messages.txt     # Your messages
 │   └── config.ini       # Settings
-├── assets/break.ico     # Icon
 ├── docs/                # Documentation
 └── .github/             # Issue templates
 ```
@@ -73,7 +73,7 @@ Fork → Branch → PR. See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details.
 
 ## License
 
-AGPL-3.0 - See [LICENSE](docs/LICENSE)
+AGPL-3.0 - See [LICENSE](LICENSE)
 
 ---
 
