@@ -1,0 +1,41 @@
+# Break Reminder .gitignore
+
+# Log files
+logs/*.log
+logs/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# User-specific config backups
+data/config.ini.user
+data/messages.txt.user
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# System files
+.DS_Store
+
+# Don't ignore the logs directory itself, just its contents
+!logs/.gitkeep
+
+# Don't ignore placeholder files
+!**/.gitkeep
